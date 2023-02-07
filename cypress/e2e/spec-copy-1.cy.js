@@ -16,8 +16,7 @@ it('By for', () => {
   cy.get('[for="tag_mobile_app"]')
   });
 
-it.only('get with find', () => {
-  cy.viewport(1920, 1080)
+it.only('should', () => {
   cy.visit("https://itrum.ru")
-  cy.get('div').find('div').find('label').eq(0)
+  cy.get('[name="full_name"]')
 });
