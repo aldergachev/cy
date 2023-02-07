@@ -16,7 +16,7 @@ it('By for', () => {
   cy.get('[for="tag_mobile_app"]')
   });
 
-it.only('should', () => {
+it('should', () => {
   cy.visit("https://itrum.ru")
   cy.get('[name="full_name"]')
 });
